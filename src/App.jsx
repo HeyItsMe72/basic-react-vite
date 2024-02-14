@@ -7,10 +7,9 @@ import './App.css'
 import FunctionComponent from './components/Components'
 import Properties from './components/Properties'
 import State from './components/State'
+import ConditionalRender from './components/ConditionalRender'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -45,6 +44,7 @@ function App() {
       <h2>State</h2>
       <State/>
       <hr />
+      <ConditionalRender/>
     </>
   )
 }
