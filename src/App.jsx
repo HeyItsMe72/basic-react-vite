@@ -9,7 +9,7 @@ import Properties from './components/Properties'
 import State from './components/State'
 import ConditionalRender from './components/ConditionalRender'
 import ElementsRender from './components/ElementsRender'
-import CounterEvent from './components/EventsnBinding'
+import {CounterEventES6, CounterEventES7} from './components/EventsnBinding'
 
 function App() {
   return (
@@ -50,7 +50,8 @@ function App() {
       <hr />
       <ElementsRender/>
       <hr />
-      <CounterEvent/>
+      <CounterEventES6/>
+      <CounterEventES7/>
     </>
   )
 }
