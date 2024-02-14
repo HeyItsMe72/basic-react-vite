@@ -73,3 +73,29 @@ export class CounterEventES7 extends Component {
         )
     }
 }
+
+function Button(props) {
+    return (
+        <button onClick={props.myOnClick}>Button Component</button>
+    )
+
+}
+
+export class EventsManage extends Component {
+    handleClick = (e, msg) => {
+        console.log(e);
+        console.log(e.target);
+        console.log(msg);
+    }
+
+    render() {
+        return (
+            <>
+                <button onClick={this.handleClick}>Sintetic Event</button>
+                <button onClick={e => this.handleClick(e, "Hi, I'm a message from a sintatic event parameter")}>Sintetic Event With Parameters</button>
+                <Button myOnClick = {(e) => this.handleClick(e, "Hi, I'm a message from a personalized event parameter")} />
+            </>
+
+        )
+    }
+}
