@@ -8,6 +8,7 @@ import FunctionComponent from './components/Components'
 import Properties from './components/Properties'
 import State from './components/State'
 import ConditionalRender from './components/ConditionalRender'
+import ElementsRender from './components/ElementsRender'
 
 function App() {
   return (
@@ -45,6 +46,8 @@ function App() {
       <State/>
       <hr />
       <ConditionalRender/>
+      <hr />
+      <ElementsRender/>
     </>
   )
 }
