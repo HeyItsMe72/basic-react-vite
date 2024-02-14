@@ -6,6 +6,7 @@ import './App.css'
 // import ClassComponent from './components/Components';
 import FunctionComponent from './components/Components'
 import Properties from './components/Properties'
+import State from './components/State'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +41,9 @@ function App() {
         element = {<i>This is a React Element</i>}
         component = {<FunctionComponent msg="Hola, soy un mensaje dentro de una prop"/>}
       />
+      <hr />
+      <h2>State</h2>
+      <State/>
       <hr />
     </>
   )
