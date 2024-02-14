@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 // import ClassComponent from './components/Components';
 import FunctionComponent from './components/Components'
+import Properties from './components/Properties'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,19 +21,26 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <h2>Components</h2>
       {/* <ClassComponent msg="Hola, Mundo desde React ClassComponent"/> */}
-      <FunctionComponent msg="Hola, Mundo desde React functionComponent"/>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit con JSX <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <FunctionComponent msg="Hola, Mundo desde React FunctionComponent"/>
+      <hr />
+      <h2>Properties</h2>
+      <Properties 
+        name = "Lucía"
+        msg = "Bienvenid@!"
+        number = {23}
+        boolean = {true}
+        array = {[1,2,3]}
+        object = {{
+          name: "Julio",
+          email: "juliocena@mail.com"
+        }}
+        func = {(el) => el*el}
+        element = {<i>This is a React Element</i>}
+        component = {<FunctionComponent msg="Hola, soy un mensaje dentro de una prop"/>}
+      />
+      <hr />
     </>
   )
 }
