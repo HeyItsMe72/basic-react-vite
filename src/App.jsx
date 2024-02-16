@@ -11,6 +11,7 @@ import ConditionalRender from './components/ConditionalRender'
 import ElementsRender from './components/ElementsRender'
 import {CounterEventES6, CounterEventES7, EventsManage} from './components/EventsnBinding'
 import Father from './components/Comunication'
+import LifeCicle from './components/LifeCicle'
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
       <EventsManage/>
       <hr />
       <Father/>
+      <hr />
+      <LifeCicle/>
     </>
   )
 }
