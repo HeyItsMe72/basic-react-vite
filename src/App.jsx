@@ -10,6 +10,7 @@ import State from './components/State'
 import ConditionalRender from './components/ConditionalRender'
 import ElementsRender from './components/ElementsRender'
 import {CounterEventES6, CounterEventES7, EventsManage} from './components/EventsnBinding'
+import Father from './components/Comunication'
 
 function App() {
   return (
@@ -54,6 +55,8 @@ function App() {
       <CounterEventES7/>
       <h2>Events: sintetic, native and personalized</h2>
       <EventsManage/>
+      <hr />
+      <Father/>
     </>
   )
 }
