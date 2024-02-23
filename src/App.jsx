@@ -12,6 +12,7 @@ import ElementsRender from './components/ElementsRender'
 import {CounterEventES6, CounterEventES7, EventsManage} from './components/EventsnBinding'
 import Father from './components/Comunication'
 import LifeCicle from './components/LifeCicle'
+import AjaxApis from './components/AjaxApis'
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
       />
       <hr />
       <h2>State</h2>
-      <State/>
+      {/* <State/> */}
       <hr />
       <ConditionalRender/>
       <hr />
@@ -60,6 +61,8 @@ function App() {
       <Father/>
       <hr />
       <LifeCicle/>
+      <hr />
+      <AjaxApis/>
     </>
   )
 }
