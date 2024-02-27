@@ -13,6 +13,7 @@ import {CounterEventES6, CounterEventES7, EventsManage} from './components/Event
 import Father from './components/Comunication'
 import LifeCicle from './components/LifeCicle'
 import AjaxApis from './components/AjaxApis'
+import HooksCounter from './components/HooksCounter'
 
 function App() {
   return (
@@ -63,6 +64,8 @@ function App() {
       <LifeCicle/>
       <hr />
       <AjaxApis/>
+      <hr />
+      <HooksCounter/>
     </>
   )
 }
