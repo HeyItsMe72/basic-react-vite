@@ -14,6 +14,7 @@ import Father from './components/Comunication'
 import LifeCicle from './components/LifeCicle'
 import AjaxApis from './components/AjaxApis'
 import HooksCounter from './components/HooksCounter'
+import HooksClock from './components/HooksClock'
 
 function App() {
   return (
@@ -66,6 +67,8 @@ function App() {
       <AjaxApis/>
       <hr />
       <HooksCounter/>
+      <hr />
+      <HooksClock />
     </>
   )
 }
