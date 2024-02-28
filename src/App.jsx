@@ -15,6 +15,8 @@ import LifeCicle from './components/LifeCicle'
 import AjaxApis from './components/AjaxApis'
 import HooksCounter from './components/HooksCounter'
 import HooksClock from './components/HooksClock'
+import AjaxHooks from './components/AjaxHooks'
+import CustomHook from './components/CustomHooks'
 
 function App() {
   return (
@@ -69,6 +71,10 @@ function App() {
       <HooksCounter/>
       <hr />
       <HooksClock />
+      <hr />
+      <AjaxHooks/>
+      <hr />
+      <CustomHook/>
     </>
   )
 }
