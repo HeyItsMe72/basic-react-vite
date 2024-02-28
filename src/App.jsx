@@ -17,6 +17,7 @@ import HooksCounter from './components/HooksCounter'
 import HooksClock from './components/HooksClock'
 import AjaxHooks from './components/AjaxHooks'
 import CustomHook from './components/CustomHooks'
+import References from './components/references'
 
 function App() {
   return (
@@ -75,6 +76,8 @@ function App() {
       <AjaxHooks/>
       <hr />
       <CustomHook/>
+      <hr />
+      <References/>
     </>
   )
 }
