@@ -20,6 +20,7 @@ import CustomHook from './components/CustomHooks'
 import References from './components/references'
 import Forms from './components/Forms'
 import Styles from './components/styles'
+import StyledComponents from './components/StyledComponents'
 
 function App() {
   return (
@@ -84,6 +85,8 @@ function App() {
       <Forms/>
       <hr />
       <Styles/>
+      <hr />
+      <StyledComponents/>
     </>
   )
 }
