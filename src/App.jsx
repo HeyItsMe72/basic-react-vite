@@ -19,6 +19,7 @@ import AjaxHooks from './components/AjaxHooks'
 import CustomHook from './components/CustomHooks'
 import References from './components/references'
 import Forms from './components/Forms'
+import Styles from './components/styles'
 
 function App() {
   return (
@@ -81,6 +82,8 @@ function App() {
       <References/>
       <hr />
       <Forms/>
+      <hr />
+      <Styles/>
     </>
   )
 }
